@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #0A0A0A;
+  --color-bg-secondary: #111111;
+  --color-bg-card: #161616;
+  --color-accent-gold: #C8A96E;
+  --color-accent-gold-light: #E8C98E;
+  --color-text-primary: #F5F0E8;
+  --color-text-secondary: #9A9590;
+  --color-text-muted: #5A5550;
+  --color-border-gold: rgba(200, 169, 110, 0.15);
+
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Cormorant Garamond', ui-serif, Georgia, serif;
+  --font-mono: 'DM Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font-family: var(--font-sans);
+    cursor: none; /* Hide default cursor for custom cursor */
+  }
+
+  ::selection {
+    background-color: var(--color-accent-gold);
+    color: var(--color-bg-primary);
+  }
+
+  /* Fallback scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg-primary);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border-gold);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-accent-gold);
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: linear-gradient(135deg, var(--color-accent-gold) 0%, var(--color-accent-gold-light) 50%, var(--color-accent-gold) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .border-gold {
+    border-color: var(--color-border-gold);
+  }
+}
