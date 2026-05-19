@@ -1,0 +1,5 @@
+﻿# File e cartelle da non caricare mai su GitHub
+node_modules/
+dist/
+.env
+.env.local
