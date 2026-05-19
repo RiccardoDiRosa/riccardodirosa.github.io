@@ -67,7 +67,7 @@ export default function About() {
               <div className="relative z-10 mb-12">
                 <div className="font-display text-7xl italic text-accent-gold mb-2">100%</div>
                 <div className="text-sm font-medium uppercase tracking-wider text-text-secondary">
-                  dei clienti tornerebbero <br/>a lavorare con me
+                  attenzione ai dettagli <br/>e cura del progetto a 360°
                 </div>
               </div>
 

@@ -51,7 +51,7 @@ export default function Portfolio() {
                   />
                </div>
                <a 
-                  href="https://www.youtube.com/@IlTuoCanaleYouTube" 
+                  href="https://youtu.be/fXpioy5UOho" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-accent-gold transition-colors hover:opacity-80"
@@ -132,7 +132,7 @@ export default function Portfolio() {
                   />
                </div>
                <a 
-                  href="https://www.youtube.com/@IlTuoCanaleYouTube" 
+                  href="https://youtu.be/5LZyvV5j4xQ" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-[#E8C98E] transition-colors hover:opacity-80"
