@@ -38,7 +38,7 @@ export default function Portfolio() {
                </h3>
                <p className="mt-4 max-w-2xl text-lg text-text-secondary leading-relaxed">
                  Un sito appetitoso e funzionale per una pizzeria locale che voleva 
-                 distinguersi dalla concorrenza e ricevere prenotazioni online.
+                 distinguersi dalla concorrenza.
                </p>
             </div>
 

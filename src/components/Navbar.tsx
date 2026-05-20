@@ -18,6 +18,7 @@ export default function Navbar() {
   const navLinks = [
     { label: 'Chi Sono', href: '#chi-sono' },
     { label: 'Portfolio', href: '#portfolio' },
+    { label: 'Prezzo', href: '#prezzo' },
     { label: 'Contatti', href: '#contatti' },
   ];
 
