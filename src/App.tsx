@@ -29,7 +29,6 @@ export default function App() {
         <Portfolio />
         <Process />
         <Advantages />
-        <Testimonials />
         <Pricing />
         <FAQ />
       </main>
