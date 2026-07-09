@@ -131,15 +131,26 @@ export default function Portfolio() {
                      className="w-full h-auto object-cover"
                   />
                </div>
-               <a 
-                  href="https://youtu.be/5LZyvV5j4xQ" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-[#E8C98E] transition-colors hover:opacity-80"
-               >
-                  <Youtube className="h-5 w-5" />
-                  <span>Guarda il video del progetto sul mio canale YouTube</span>
-               </a>
+               <div className="flex flex-col sm:flex-row items-center gap-x-6 gap-y-3">
+                 <a 
+                    href="https://massaggireikiolha.it" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-[#E8C98E] transition-colors hover:opacity-80"
+                 >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                    <span>Visita il sito live</span>
+                 </a>
+                 <a 
+                    href="https://youtu.be/5LZyvV5j4xQ" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-[#E8C98E] transition-colors hover:opacity-80"
+                 >
+                    <Youtube className="h-5 w-5" />
+                    <span>Guarda il video su YouTube</span>
+                 </a>
+               </div>
             </div>
 
             <div className="flex flex-col lg:flex-row gap-12 border-t border-border-gold pt-10">
