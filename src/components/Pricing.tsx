@@ -90,7 +90,7 @@ export default function Pricing() {
                       Pensa al tuo sito come a una vetrina sul corso principale. I clienti passano, guardano il menu, trovano l'indirizzo e ti chiamano. <strong className="text-text-primary">Non serve altro.</strong>
                     </p>
                     <p className="text-sm text-text-secondary leading-relaxed mb-4">
-                      Il <span className="text-text-primary font-medium">Pacchetto Completo (€890)</span> è diverso: include un database — cioè una struttura che permette agli utenti di registrarsi, fare ordini online, gestire prenotazioni in tempo reale o avere contenuti che cambiano automaticamente. Funziona come un piccolo gestionale.
+                      Il <span className="text-text-primary font-medium">Pacchetto Completo (€950)</span> è diverso: include un database — cioè una struttura che permette agli utenti di registrarsi, fare ordini online, gestire prenotazioni in tempo reale o avere contenuti che cambiano automaticamente. Funziona come un piccolo gestionale.
                     </p>
                     <p className="text-sm text-text-secondary leading-relaxed">
                       Se invece hai bisogno di essere trovato su Google, mostrare il menu e far capire dove sei, <span className="text-text-primary font-medium">il Sito Vetrina fa esattamente questo</span> — a metà prezzo, pronto in una settimana.
@@ -124,7 +124,7 @@ export default function Pricing() {
                   <div className="text-center border-t border-b border-border-gold/40 py-6 mb-6 mt-auto">
                     <div className="text-text-secondary text-xs uppercase tracking-widest mb-2 font-mono">Prezzo fisso</div>
                     <div className="font-display text-6xl sm:text-7xl text-accent-gold/85 mb-1">
-                      €490
+                      €550
                     </div>
                     <div className="text-sm text-text-muted mt-2">
                       Pagamento unico · Preventivo gratuito
@@ -176,7 +176,7 @@ export default function Pricing() {
               <div className="mb-10 text-center border-t border-b border-border-gold py-8 mt-auto">
                 <div className="text-text-secondary text-base uppercase tracking-widest mb-2 font-mono">A partire da</div>
                 <div className="font-display text-6xl sm:text-7xl text-accent-gold mb-2">
-                  €890
+                  €950
                 </div>
                 <div className="text-sm text-text-muted mt-3">
                   Pagamento rateizzabile · Preventivo gratuito
