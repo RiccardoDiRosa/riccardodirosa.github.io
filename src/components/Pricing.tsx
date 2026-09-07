@@ -275,8 +275,8 @@ export default function Pricing() {
             <span className="text-accent-gold/70 text-xl shrink-0">ⓘ</span>
             <div>
               <p className="text-sm text-text-secondary leading-relaxed">
-                <span className="text-text-primary font-medium">Non incluso nel pacchetto:</span> dominio e hosting sono a carico tuo e si rinnovano annualmente — di solito tra <span className="text-accent-gold/90">€15 e €120/anno</span> a seconda delle esigenze.{' '}
-                Posso consigliarti la soluzione più adatta al tuo budget e al tipo di sito, così non spendi più del necessario. Qualora non dovessi scegliere la manutenzione (strategia super consigliato se non quasi essenziale), hai 30 giorni di assistenza post lancio gratuite, dal 31° giorno l assistenza diventa a pagamento e il costo sara di 45€/h.
+                <span className="text-text-primary font-medium">Non incluso nel pacchetto:</span> dominio (il nome del sito, es. www.tuonome.it) e hosting (lo spazio web). Sono a carico tuo e si rinnovano annualmente da <span className="text-accent-gold/90">12€ + IVA il primo anno</span>, e dal secondo anno da <span className="text-accent-gold/90">34,99€ + IVA a 150€ all'anno</span> in base alle esigenze.{' '}
+                Posso consigliarti la soluzione più adatta al tuo budget. Qualora non dovessi scegliere la manutenzione (strategia super consigliata se non quasi essenziale), hai 30 giorni di assistenza post-lancio gratuiti, dal 31° giorno l'assistenza diventa a pagamento e il costo sarà di 45€/h.
               </p>
             </div>
           </div>

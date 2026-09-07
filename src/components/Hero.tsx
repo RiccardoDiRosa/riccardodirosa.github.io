@@ -8,6 +8,20 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(200,169,110,0.08)_0%,transparent_50%)]" />
 
       <div className="relative z-10 flex w-full max-w-4xl flex-col items-center text-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8 }}
+          className="mb-8 relative"
+        >
+          <div className="absolute inset-0 rounded-full bg-accent-gold blur-2xl opacity-20 animate-pulse"></div>
+          <img 
+            src="/profile.png" 
+            alt="Riccardo Di Rosa" 
+            className="relative z-10 h-32 w-32 md:h-40 md:w-40 rounded-full object-cover border-2 border-accent-gold/50 shadow-[0_0_30px_rgba(200,169,110,0.3)]"
+          />
+        </motion.div>
+
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

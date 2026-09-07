@@ -13,7 +13,9 @@ export default function Footer() {
         </p>
         
         <a 
-          href="mailto:new.riccardo.dirosa@tuamail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=new.riccardo.dirosa@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-accent-gold px-12 py-5 text-lg font-medium text-bg-primary transition-transform hover:scale-105 mb-8"
         >
           Scrivimi ora →

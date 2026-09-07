@@ -31,8 +31,8 @@ export default function FAQ() {
       a: "Dipende dal tipo di sito. Per contenuti semplici (testi, foto, prezzi) sì, ti insegno come farlo. Per modifiche strutturali sono qui io."
     },
     {
-      q: "Quanto costa il dominio e l'hosting?",
-      a: "Non sono inclusi nel prezzo base perché variano (solitamente €50-150/anno). Ti guido nella scelta migliore per il tuo budget."
+      q: "Cosa sono e quanto costano il dominio e l'hosting?",
+      a: "Il dominio è il nome del sito (es. www.tuonome.it), l'hosting è lo spazio web. Non sono inclusi nel prezzo perché sono a tuo nome. Costano da 12€ + IVA il primo anno, e dal secondo anno da 34,99€ + IVA a 150€ all'anno in base alle esigenze. Ti guido io nella scelta."
     },
     {
       q: "Posso richiedere modifiche dopo la consegna?",
